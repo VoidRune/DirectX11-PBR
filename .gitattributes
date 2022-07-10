@@ -1,1 +1,3 @@
 DirectX11-PBR/VoidEngine/Dependencies/** linguist-vendored
+*.c linguist-language=C++
+
