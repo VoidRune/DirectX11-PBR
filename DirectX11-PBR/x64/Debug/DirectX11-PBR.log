@@ -1,0 +1,6 @@
+﻿  Application.cpp
+D:\Creative\Programming\Visual Studio projects\DirectX\DirectX11-PBR\DirectX11-PBR\Game\Application.cpp(52,84): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Creative\Programming\Visual Studio projects\DirectX\DirectX11-PBR\DirectX11-PBR\Game\Application.cpp(52,51): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Creative\Programming\Visual Studio projects\DirectX\DirectX11-PBR\DirectX11-PBR\Game\Application.cpp(74,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Creative\Programming\Visual Studio projects\DirectX\DirectX11-PBR\DirectX11-PBR\Game\Application.cpp(85,77): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  DirectX11-PBR.vcxproj -> D:\Creative\Programming\Visual Studio projects\DirectX\DirectX11-PBR\x64\Debug\DirectX11-PBR.exe

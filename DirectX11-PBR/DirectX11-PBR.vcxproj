@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{fab6d9d4-69a4-4863-ad46-a988acccccb1}</ProjectGuid>
+    <RootNamespace>DirectX11PBR</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>Game;VoidEngine;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>Game;VoidEngine;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Game\Application.cpp" />
+    <ClCompile Include="Game\main.cpp" />
+    <ClCompile Include="Game\Material.cpp" />
+    <ClCompile Include="Game\PlayerCamera.cpp" />
+    <ClCompile Include="VoidEngine\Audio\AudioEngine.cpp" />
+    <ClCompile Include="VoidEngine\Dependencies\minivorbis\minivorbis.c" />
+    <ClCompile Include="VoidEngine\Dependencies\OpenFBX\miniz.c" />
+    <ClCompile Include="VoidEngine\Dependencies\OpenFBX\ofbx.cpp" />
+    <ClCompile Include="VoidEngine\Graphics\Buffers.cpp" />
+    <ClCompile Include="VoidEngine\Graphics\Camera\Camera3D.cpp" />
+    <ClCompile Include="VoidEngine\Graphics\Geometry.cpp" />
+    <ClCompile Include="VoidEngine\Graphics\GraphicsDevice.cpp" />
+    <ClCompile Include="VoidEngine\Graphics\Model.cpp" />
+    <ClCompile Include="VoidEngine\Graphics\RenderPass.cpp" />
+    <ClCompile Include="VoidEngine\Graphics\RenderTarget.cpp" />
+    <ClCompile Include="VoidEngine\Graphics\Shader.cpp" />
+    <ClCompile Include="VoidEngine\Graphics\Texture\HDRCubeMap.cpp" />
+    <ClCompile Include="VoidEngine\Dependencies\stb\stb_image.cpp" />
+    <ClCompile Include="VoidEngine\Graphics\Texture\Texture.cpp" />
+    <ClCompile Include="VoidEngine\Dependencies\tinyobjloader\tiny_obj_loader.cpp" />
+    <ClCompile Include="VoidEngine\Utility\Time.cpp" />
+    <ClCompile Include="VoidEngine\Window\Input.cpp" />
+    <ClCompile Include="VoidEngine\Window\Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game\Application.h" />
+    <ClInclude Include="Game\Material.h" />
+    <ClInclude Include="Game\PlayerCamera.h" />
+    <ClInclude Include="VoidEngine\Audio\AudioEngine.h" />
+    <ClInclude Include="VoidEngine\Dependencies\minimp3\minimp3.h" />
+    <ClInclude Include="VoidEngine\Dependencies\minimp3\minimp3_ex.h" />
+    <ClInclude Include="VoidEngine\Dependencies\minivorbis\minivorbis.h" />
+    <ClInclude Include="VoidEngine\Dependencies\OpenFBX\miniz.h" />
+    <ClInclude Include="VoidEngine\Dependencies\OpenFBX\ofbx.h" />
+    <ClInclude Include="VoidEngine\Graphics\Buffers.h" />
+    <ClInclude Include="VoidEngine\Graphics\Camera\Camera3D.h" />
+    <ClInclude Include="VoidEngine\Graphics\Geometry.h" />
+    <ClInclude Include="VoidEngine\Graphics\GraphicsDevice.h" />
+    <ClInclude Include="VoidEngine\Graphics\Model.h" />
+    <ClInclude Include="VoidEngine\Graphics\RenderPass.h" />
+    <ClInclude Include="VoidEngine\Graphics\RenderTarget.h" />
+    <ClInclude Include="VoidEngine\Graphics\Shader.h" />
+    <ClInclude Include="VoidEngine\Graphics\Texture\HDRCubeMap.h" />
+    <ClInclude Include="VoidEngine\Dependencies\stb\stb_image.h" />
+    <ClInclude Include="VoidEngine\Graphics\Texture\Texture.h" />
+    <ClInclude Include="VoidEngine\Dependencies\tinyobjloader\tiny_obj_loader.h" />
+    <ClInclude Include="VoidEngine\Utility\Log.h" />
+    <ClInclude Include="VoidEngine\Utility\Time.h" />
+    <ClInclude Include="VoidEngine\Utility\Types.h" />
+    <ClInclude Include="VoidEngine\Utility\Utils.h" />
+    <ClInclude Include="VoidEngine\Window\Input.h" />
+    <ClInclude Include="VoidEngine\Window\Window.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

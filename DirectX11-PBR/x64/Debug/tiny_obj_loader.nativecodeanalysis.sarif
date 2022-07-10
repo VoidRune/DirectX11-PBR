@@ -1,0 +1,1257 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 917,
+                  "startColumn": 46,
+                  "endLine": 917,
+                  "endColumn": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::tryParseDouble",
+                  "decoratedName": "?tryParseDouble@tinyobj@@YA_NPEBD0PEAN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 942,
+                  "startColumn": 46,
+                  "endLine": 942,
+                  "endColumn": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::tryParseDouble",
+                  "decoratedName": "?tryParseDouble@tinyobj@@YA_NPEBD0PEAN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'tinyobj::texture_type_t' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 1088,
+                  "startColumn": 34,
+                  "endLine": 1088,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::parseTextureType",
+                  "decoratedName": "?parseTextureType@tinyobj@@YA?AW4texture_type_t@1@PEAPEBDW421@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26498",
+          "message": {
+            "text": "The function 'std::numeric_limits<float>::epsilon' is constexpr, mark variable 'epsilon' constexpr if compile-time evaluation is desired (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 1602,
+                  "startColumn": 42,
+                  "endLine": 1602,
+                  "endColumn": 88
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::exportGroupsToShape",
+                  "decoratedName": "?exportGroupsToShape@tinyobj@@YA_NPEAUshape_t@1@AEBUPrimGroup@1@AEBV?$vector@Utag_t@tinyobj@@V?$allocator@Utag_t@tinyobj@@@std@@@std@@HAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@5@_NAEBV?$vector@MV?$allocator@M@std@@@5@PEAV65@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::texture_option_t::type' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 5,
+                  "endLine": 175,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::texture_option_t::{ctor}",
+                  "decoratedName": "??0texture_option_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::texture_option_t::type"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::texture_option_t::brightness' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 5,
+                  "endLine": 175,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::texture_option_t::{ctor}",
+                  "decoratedName": "??0texture_option_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::texture_option_t::brightness"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::texture_option_t::sharpness' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 5,
+                  "endLine": 175,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::texture_option_t::{ctor}",
+                  "decoratedName": "??0texture_option_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::texture_option_t::sharpness"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::texture_option_t::contrast' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 5,
+                  "endLine": 175,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::texture_option_t::{ctor}",
+                  "decoratedName": "??0texture_option_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::texture_option_t::contrast"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::texture_option_t::origin_offset' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 5,
+                  "endLine": 175,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::texture_option_t::{ctor}",
+                  "decoratedName": "??0texture_option_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::texture_option_t::origin_offset"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::texture_option_t::scale' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 5,
+                  "endLine": 175,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::texture_option_t::{ctor}",
+                  "decoratedName": "??0texture_option_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::texture_option_t::scale"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::texture_option_t::turbulence' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 5,
+                  "endLine": 175,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::texture_option_t::{ctor}",
+                  "decoratedName": "??0texture_option_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::texture_option_t::turbulence"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::texture_option_t::texture_resolution' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 5,
+                  "endLine": 175,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::texture_option_t::{ctor}",
+                  "decoratedName": "??0texture_option_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::texture_option_t::texture_resolution"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::texture_option_t::clamp' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 5,
+                  "endLine": 175,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::texture_option_t::{ctor}",
+                  "decoratedName": "??0texture_option_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::texture_option_t::clamp"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::texture_option_t::imfchan' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 5,
+                  "endLine": 175,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::texture_option_t::{ctor}",
+                  "decoratedName": "??0texture_option_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::texture_option_t::imfchan"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::texture_option_t::blendu' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 5,
+                  "endLine": 175,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::texture_option_t::{ctor}",
+                  "decoratedName": "??0texture_option_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::texture_option_t::blendu"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::texture_option_t::blendv' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 5,
+                  "endLine": 175,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::texture_option_t::{ctor}",
+                  "decoratedName": "??0texture_option_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::texture_option_t::blendv"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::texture_option_t::bump_multiplier' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 5,
+                  "endLine": 175,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::texture_option_t::{ctor}",
+                  "decoratedName": "??0texture_option_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::texture_option_t::bump_multiplier"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::material_t::diffuse' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 319,
+                  "startColumn": 5,
+                  "endLine": 319,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::material_t::{ctor}",
+                  "decoratedName": "??0material_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::material_t::diffuse"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::material_t::ambient' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 319,
+                  "startColumn": 5,
+                  "endLine": 319,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::material_t::{ctor}",
+                  "decoratedName": "??0material_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::material_t::ambient"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::material_t::specular' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 319,
+                  "startColumn": 5,
+                  "endLine": 319,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::material_t::{ctor}",
+                  "decoratedName": "??0material_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::material_t::specular"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::material_t::transmittance' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 319,
+                  "startColumn": 5,
+                  "endLine": 319,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::material_t::{ctor}",
+                  "decoratedName": "??0material_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::material_t::transmittance"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::material_t::emission' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 319,
+                  "startColumn": 5,
+                  "endLine": 319,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::material_t::{ctor}",
+                  "decoratedName": "??0material_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::material_t::emission"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::material_t::shininess' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 319,
+                  "startColumn": 5,
+                  "endLine": 319,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::material_t::{ctor}",
+                  "decoratedName": "??0material_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::material_t::shininess"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::material_t::ior' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 319,
+                  "startColumn": 5,
+                  "endLine": 319,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::material_t::{ctor}",
+                  "decoratedName": "??0material_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::material_t::ior"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::material_t::dissolve' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 319,
+                  "startColumn": 5,
+                  "endLine": 319,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::material_t::{ctor}",
+                  "decoratedName": "??0material_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::material_t::dissolve"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::material_t::illum' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 319,
+                  "startColumn": 5,
+                  "endLine": 319,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::material_t::{ctor}",
+                  "decoratedName": "??0material_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::material_t::illum"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::material_t::dummy' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 319,
+                  "startColumn": 5,
+                  "endLine": 319,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::material_t::{ctor}",
+                  "decoratedName": "??0material_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::material_t::dummy"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::material_t::roughness' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 319,
+                  "startColumn": 5,
+                  "endLine": 319,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::material_t::{ctor}",
+                  "decoratedName": "??0material_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::material_t::roughness"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::material_t::metallic' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 319,
+                  "startColumn": 5,
+                  "endLine": 319,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::material_t::{ctor}",
+                  "decoratedName": "??0material_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::material_t::metallic"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::material_t::sheen' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 319,
+                  "startColumn": 5,
+                  "endLine": 319,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::material_t::{ctor}",
+                  "decoratedName": "??0material_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::material_t::sheen"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::material_t::clearcoat_thickness' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 319,
+                  "startColumn": 5,
+                  "endLine": 319,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::material_t::{ctor}",
+                  "decoratedName": "??0material_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::material_t::clearcoat_thickness"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::material_t::clearcoat_roughness' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 319,
+                  "startColumn": 5,
+                  "endLine": 319,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::material_t::{ctor}",
+                  "decoratedName": "??0material_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::material_t::clearcoat_roughness"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::material_t::anisotropy' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 319,
+                  "startColumn": 5,
+                  "endLine": 319,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::material_t::{ctor}",
+                  "decoratedName": "??0material_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::material_t::anisotropy"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::material_t::anisotropy_rotation' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 319,
+                  "startColumn": 5,
+                  "endLine": 319,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::material_t::{ctor}",
+                  "decoratedName": "??0material_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::material_t::anisotropy_rotation"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::material_t::pad0' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 319,
+                  "startColumn": 5,
+                  "endLine": 319,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::material_t::{ctor}",
+                  "decoratedName": "??0material_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::material_t::pad0"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::material_t::pad2' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 319,
+                  "startColumn": 5,
+                  "endLine": 319,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::material_t::{ctor}",
+                  "decoratedName": "??0material_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::material_t::pad2"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'tinyobj::skin_weight_t::vertex_id' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+                },
+                "region": {
+                  "startLine": 339,
+                  "startColumn": 5,
+                  "endLine": 339,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tinyobj::skin_weight_t::{ctor}",
+                  "decoratedName": "??0skin_weight_t@tinyobj@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "tinyobj::skin_weight_t::vertex_id"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.31.31107.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF62D0C9CC0 -il C:\\Users\\Bernik\\AppData\\Local\\Temp\\_CL_7a110e17ast -typedil -f VoidEngine\\Dependencies\\tinyobjloader\\tiny_obj_loader.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1931 -D_MSC_FULL_VER=193131107 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -I D:\\Creative\\Programming\\Visual Studio projects\\DirectX\\DirectX11-PBR\\DirectX11-PBR\\Game -I D:\\Creative\\Programming\\Visual Studio projects\\DirectX\\DirectX11-PBR\\DirectX11-PBR\\VoidEngine -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -std:c++20 -permissive- -Fox64\\Debug\\tiny_obj_loader.obj -Fdx64\\Debug\\vc143.pdb -external:W 3 -Gd -analyze:projectdirectory D:\\Creative\\Programming\\Visual Studio projects\\DirectX\\DirectX11-PBR\\DirectX11-PBR -analyze:rulesetdirectory ;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.7.2\\Include\\um -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.7.2\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.7.2\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Window/Window.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "a405a1f39a37e1804fdaa0bb83809307db6a08372270f8988d959c3ffab1d9e3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/window/window.h"
+          },
+          "hashes": {
+            "sha-256": "444136de1cca6ac2b98f9262ce5a282673b743a5ed7a00443f3e95f51c2ff36d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/utility/log.h"
+          },
+          "hashes": {
+            "sha-256": "62e02b42d1f842bf3a8ffdf6c72ae31f6168f109292e70ed5e5400dcdbdcb0b4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/window/input.h"
+          },
+          "hashes": {
+            "sha-256": "03d11c95e7edb6c3a6061df6dea88178809878987f4bdad4483df35b887f7b09"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/utility/types.h"
+          },
+          "hashes": {
+            "sha-256": "26a9b749e663bff362d5e63074b52161634410f71f43cc4d60374a857636de22"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/window/input.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "0069318f720b650843d3cfcafd287c39c9ca66d2abab6d1fa3b49d10fad08354"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/utility/time.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "0fdd3c2e92b6fdae6b5550e29c589ae34bee4fa411b7af6bba78a4208c29244b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/utility/time.h"
+          },
+          "hashes": {
+            "sha-256": "490b424cf192a19c51879732f930338b3f307d332620e1c6bf0af64bdbc0d5b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "ff8cd8de5ce35c4f0a29cb4473994f3be450c72af5be7b81d596a5442c8266d0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/dependencies/tinyobjloader/tiny_obj_loader.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "0a102c47210757e56e0ca745ca2c6eb8e7987c6d8b3b94c8bc77fb63c24d160b"
+          }
+        }
+      ]
+    }
+  ]
+}

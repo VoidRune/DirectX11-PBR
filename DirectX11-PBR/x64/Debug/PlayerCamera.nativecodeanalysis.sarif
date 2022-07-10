@@ -1,0 +1,432 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.31.31107.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF62D0C9CC0 -il C:\\Users\\Bernik\\AppData\\Local\\Temp\\_CL_42d822fdast -typedil -f Game\\PlayerCamera.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1931 -D_MSC_FULL_VER=193131107 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -I D:\\Creative\\Programming\\Visual Studio projects\\DirectX\\DirectX11-PBR\\DirectX11-PBR\\Game -I D:\\Creative\\Programming\\Visual Studio projects\\DirectX\\DirectX11-PBR\\DirectX11-PBR\\VoidEngine -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -std:c++20 -permissive- -Fox64\\Debug\\PlayerCamera.obj -Fdx64\\Debug\\vc143.pdb -external:W 3 -Gd -analyze:projectdirectory D:\\Creative\\Programming\\Visual Studio projects\\DirectX\\DirectX11-PBR\\DirectX11-PBR -analyze:rulesetdirectory ;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.7.2\\Include\\um -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.7.2\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.7.2\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Window/Window.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "a405a1f39a37e1804fdaa0bb83809307db6a08372270f8988d959c3ffab1d9e3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/window/window.h"
+          },
+          "hashes": {
+            "sha-256": "444136de1cca6ac2b98f9262ce5a282673b743a5ed7a00443f3e95f51c2ff36d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/utility/log.h"
+          },
+          "hashes": {
+            "sha-256": "62e02b42d1f842bf3a8ffdf6c72ae31f6168f109292e70ed5e5400dcdbdcb0b4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/window/input.h"
+          },
+          "hashes": {
+            "sha-256": "03d11c95e7edb6c3a6061df6dea88178809878987f4bdad4483df35b887f7b09"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/utility/types.h"
+          },
+          "hashes": {
+            "sha-256": "26a9b749e663bff362d5e63074b52161634410f71f43cc4d60374a857636de22"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/window/input.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "0069318f720b650843d3cfcafd287c39c9ca66d2abab6d1fa3b49d10fad08354"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/utility/time.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "0fdd3c2e92b6fdae6b5550e29c589ae34bee4fa411b7af6bba78a4208c29244b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/utility/time.h"
+          },
+          "hashes": {
+            "sha-256": "490b424cf192a19c51879732f930338b3f307d332620e1c6bf0af64bdbc0d5b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/tinyobjloader/tiny_obj_loader.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "ff8cd8de5ce35c4f0a29cb4473994f3be450c72af5be7b81d596a5442c8266d0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/dependencies/tinyobjloader/tiny_obj_loader.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "0a102c47210757e56e0ca745ca2c6eb8e7987c6d8b3b94c8bc77fb63c24d160b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Graphics/Texture/Texture.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "06aa4f4ded83cf2e54ae4f2de9d663d06c0f2ef2ba77752bbcede4873b656cb3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Graphics/Shader.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "68a29d48bbbdce26ae65ed4f34e4cd942842f323c842e29249734f78c31b3608"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Graphics/Texture/Texture.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "b188e62b551e8cf1f478551a4371fbd65e5daa082ab37853e637c9ac1c2fc473"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/graphics/graphicsdevice.h"
+          },
+          "hashes": {
+            "sha-256": "6c2a19c9e1dbe9f7358ce1bb798c82a2d5c9c9a6a8175c763bc28b43f038aaa0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/dependencies/stb/stb_image.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "73ea163a2ad0f963681bf9a4b9f9b86ed9f41d6eff6ede6cad0c224a6d256224"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/graphics/geometry.h"
+          },
+          "hashes": {
+            "sha-256": "739816c69d2e54a28ee82798cadbefa44d1615f51cb8a6dd87a28f0cb96ca036"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/graphics/buffers.h"
+          },
+          "hashes": {
+            "sha-256": "c2ce367614c251a6f21428b2667464d4099b36f5151d25a15206a03e444bae26"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/dependencies/stb/stb_image.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "de6c824362323b304ace73a27a265a3f9bfb34eae653ce0b70149f8ff4d07022"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Graphics/Texture/HDRCubeMap.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "aecf703baabe76c482d248aa78e8155ea0cae2f8aa0e069aba17abce5a825483"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Graphics/Texture/HDRCubeMap.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "66b528c66f222c2ce8048a4c377416460f1aaddd8dd9803cafe955c2ea67532a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/graphics/shader.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "6d2ad8572b78d673d921af969e546ad124e4b91234bf6f86642119a7bff2a1ac"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Graphics/RenderTarget.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "5de21cd52c38a928c9093287cc9ef7413d8212984d278783f6e04232a97538d1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Graphics/RenderTarget.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "753520e95585a8be1d34cc66c954655372a21bb14c9fc5aa6e0a3d5d457d99c2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/graphics/renderpass.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "cda8d7ec202829849d43a693ac1036fbf8c4f1184bc229add43394ebdc86e107"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/graphics/renderpass.h"
+          },
+          "hashes": {
+            "sha-256": "5405562ad8aaf093ee5704bf610ab4aa815c79ce2f37ff5017a4f6b41a29d6c5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Graphics/GraphicsDevice.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "f37ffb3699606f225f2f0def62ea99364648f2ae2095cc7b75a597897455ac03"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/graphics/geometry.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "3640af5f53a563557e5bc0743b283749c81ed7e7b541d514defcafb1ee8ab3b4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Graphics/Camera/Camera3D.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "f7e360aea8e0383ba33175fedb9f7f030a0ee75a50315d15829b107a60b1c1cf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/graphics/camera/camera3d.h"
+          },
+          "hashes": {
+            "sha-256": "de24e5d798e59aa7b18716c7d5f9653b5d956454d23364ad63e3f1fccca65a3f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Graphics/Buffers.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "d21f332194e0b25f80afd9ab58dcec8b72d9c57a2aeb173ba0fb5684a0aea3c6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/OpenFBX/OpenFBX-master/ofbx.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "414f6ab562747fb1e1dbe71251c233728b54bfb15d79b5b80ac7f0a5f6c768cd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Dependencies/OpenFBX/OpenFBX-master/ofbx.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "751b7df91c4c542282e048e3bc9010b270725ddc1d2b058bb584fce19d93c146"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/dependencies/openfbx/openfbx-master/miniz.h"
+          },
+          "hashes": {
+            "sha-256": "3f18577b78b04400cdc674e3d90aa027028c965aaf5ebee33db4df9183693718"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Audio/minimp3.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "093c20cc51e461be76ed11dcb9da6bd7c2771dff181bacd1bc8ec5f465d37d76"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Audio/minimp3_ex.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "7ae1381029e3a655e54b224fb183cb20548d07ebe3a1aa9753c4f325e6c9a62c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Creative/Programming/Visual Studio projects/DirectX/DirectX11-PBR/DirectX11-PBR/VoidEngine/Audio/AudioEngine.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "77c6cb6f670928d8cbb86984ac2f91648ffb60178d1ac24e09125120040c5671"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/audio/audioengine.h"
+          },
+          "hashes": {
+            "sha-256": "b765294731ac87926ac43c5c338ab6dd1b00e3d109753f8716ddfd286442f8e4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/voidengine/audio/minivorbis.h"
+          },
+          "hashes": {
+            "sha-256": "a62a54725367e0ac898c5a71f96ff549a8ed4f26aa7ea32b401d0de18e6a3828"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/game/playercamera.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "9b32431c7064487e72d6f45212a08f8273f53e0a788348f06de285805380127c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/creative/programming/visual studio projects/directx/directx11-pbr/directx11-pbr/game/playercamera.h"
+          },
+          "hashes": {
+            "sha-256": "b2cb15db1bc24796ad7a410af3781fecb6b572727f032d42aba56cba7b8c10c2"
+          }
+        }
+      ]
+    }
+  ]
+}
